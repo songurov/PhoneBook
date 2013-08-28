@@ -49,6 +49,8 @@ namespace PhoneBook
             // open the connection:
             sqlite_conn.Open();
 
+
+
             // create a new SQL command:
             sqlite_cmd = sqlite_conn.CreateCommand();
 
